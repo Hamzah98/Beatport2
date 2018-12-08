@@ -1,18 +1,22 @@
 import React from "react";
 import BeatportLogo from "./BeatportLogo";
 import NavLinks from "./NavLinks";
+import Search from "./Search";
+import Account from "./Account";
+import Cart from "./Cart";
 
 const Header = props => {
   return (
-    <div>
+    <header>
       <BeatportLogo />
       <NavLinks />
-      {/* 
       <Search />
       <Account />
-      <MyBeatport />
-      <Cart /> */}
-    </div>
+      {/* 
+      <MyBeatport /> find/create svg of my beatport icon
+      */}
+      <Cart />
+    </header>
   );
 };
 export default Header;
