@@ -1,0 +1,8 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: 400 10px "CoreSans", Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
