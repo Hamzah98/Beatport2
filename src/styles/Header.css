@@ -1,0 +1,15 @@
+.header-container {
+  position: fixed;
+  width: 100%;
+  height: 58px;
+  padding: 0px;
+  margin: 0px;
+  z-index: 16;
+  background-color: #1b1b1b;
+  display: grid;
+  grid-template-columns: 1fr 1fr 3fr 1fr 1fr 1fr;
+  grid-column-gap: 5px;
+  justify-items: center;
+  align-items: center;
+  font: 600 12px "CoreSans", Arial, sans-serif;
+}

@@ -18,7 +18,7 @@ class AccountIcon extends React.Component {
         onMouseEnter={this.showLoginSignUpModal}
         onMouseLeave={this.hideLoginSignUpModal}
       >
-        <img src={require("../images/account.png")} alt="account icon" />
+        <img src={require("../images/user.svg")} alt="account icon" />
         {this.state.modalVisible ? <LoginSignUpModal /> : null}
       </div>
     );

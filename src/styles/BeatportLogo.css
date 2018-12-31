@@ -1,0 +1,10 @@
+.beatport-logo {
+  position: absolute;
+  left: 45px;
+  top: 14px;
+  width: 32px;
+  height: 32px;
+  cursor: pointer;
+  padding: 0px;
+  margin: 0px;
+}

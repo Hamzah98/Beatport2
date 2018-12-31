@@ -1,5 +1,6 @@
 import React from "react";
 import Link from "./Link";
+import "../styles/GenresDropDown.css";
 
 class GenresDropDown extends React.Component {
   constructor(props) {
@@ -16,8 +17,12 @@ class GenresDropDown extends React.Component {
     ));
 
     return (
-      <div onMouseEnter={this.showLinks} onMouseLeave={this.hideLinks}>
-        <p>GENRES</p>
+      <div
+        className="genres"
+        onMouseEnter={this.showLinks}
+        onMouseLeave={this.hideLinks}
+      >
+        <p>GENRES ▼</p>
         {this.state.showLinks ? links : null}
       </div>
     );
