@@ -1,38 +1,4 @@
-.genres-dropdown-container {
+.genres{
   all: unset;
-  color: #ffffff;
-  position: absolute;
-  left: 95px;
-  margin: 10px;
-  cursor: pointer;
-}
-
-.genre-links-container {
-  position: fixed;
-  display: flex;
-  flex-wrap: wrap;
-  height: 50%;
-  width: 100%;
-  top: 58px;
-  left: 0px;
-  padding: 20px 0px 0px 20px;
-  background: #1f1f1f;
-  overflow-y: auto;
-}
-
-.genre-links-container a {
-  all: unset;
-  display: block;
-  height: 20px;
-  width: 300px;
-  padding: 5px;
-  margin-right: 20px;
-  font-weight: lighter;
-  font-size: 15px;
-  color: #b5b5b5;
-  border-bottom: 1px solid #2c2c2c;
-}
-
-.genre-links-container a:hover {
-  color: #427b0f;
+  color:#ffffff;
 }
