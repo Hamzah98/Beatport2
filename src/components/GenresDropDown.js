@@ -10,6 +10,7 @@ class GenresDropDown extends React.Component {
 
   showLinks = () => this.setState({ showLinks: true });
   hideLinks = () => this.setState({ showLinks: false });
+
   render() {
     const genres = this.props.genres;
     const links = genres.map(genre => (
